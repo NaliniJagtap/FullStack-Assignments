@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="payment" class="autowireExample.Payment" autowire="byName" />
+		
+	<bean id="upipayment" class="autowireExample.UPIPayments" >
+		<property name="personNameUPI" value="UPI Payment : Nalini" />
+		<property name="amount" value="3000" />
+	</bean>
+	
+	<bean id="walletpayments" class="autowireExample.WalletPayments" >
+		<property name="personNameWP" value="Wallet Payment : Santosh" />
+		<property name="amount" value="5000" />
+	</bean>
+</beans>
