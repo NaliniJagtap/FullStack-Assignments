@@ -79,6 +79,9 @@
                 <div class="col-md-4 mt-1">
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fa fa-shopping-cart p-3" style="font-size:30px;color:white">Cart</i> &nbsp;&nbsp;&nbsp;&nbsp;
+                     <a href="cart.jsp">
+                        <button type="button" class="btn  bg-white" style="font-size:15px;color:rgb(12, 26, 223)"><b>Cart</b></button>
+                    </a>
                     <a href="login.jsp">
                         <button type="button" class="btn  bg-white" style="font-size:15px;color:rgb(12, 26, 223)"><b>Login</b></button> </a>
                     &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
